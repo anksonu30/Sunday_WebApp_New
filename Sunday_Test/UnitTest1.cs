@@ -7,7 +7,7 @@ namespace webtest
         [Fact]
         public void DemoTest()
         {
-            int i = 1;
+            int i = 5;
             bool result = false;
             if (i == 1) result = true;
             Assert.True(result, "Value should be equal to 1");
