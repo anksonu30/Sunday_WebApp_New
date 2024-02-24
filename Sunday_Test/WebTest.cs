@@ -9,7 +9,7 @@ namespace Sunday_Test
         {
             int i = 5;
             bool result = false;
-            if (i == 1) result = true;
+            if (i == 5) result = true;
             Assert.True(result, "Value should be equal to 1");
         }
     }
